@@ -1,0 +1,59 @@
+$darkpurp: #0c0029;
+$grey: #faf7f5;
+$offwhite: #fffeff;
+$pink: #ff71be;
+$darkgrey: #ada8aa;
+*,
+body,
+html {
+  box-sizing: border-box;
+}
+#filter {
+  background: $grey;
+  width: 30%;
+  max-width: 300px;
+  .inside {
+    padding: 20px;
+  }
+  h4 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  select {
+    background-color: transparent;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1b1b1b;
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .filters {
+    .title {
+      font-size: 0.9rem;
+      display: block;
+      margin-bottom: 1rem;
+      color: $darkgrey;
+    }
+    input[type="text"] {
+      padding: 0.4rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      width: 45%;
+      display: inline-block;
+      margin-right: 2.5%;
+      margin-bottom: 1rem;
+    }
+    &.extras {
+      label {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        input[type="checkbox"] {
+          float: right;
+        }
+      }
+    }
+  }
+}
