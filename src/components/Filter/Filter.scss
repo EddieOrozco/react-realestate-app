@@ -12,6 +12,8 @@ html {
   background: $grey;
   width: 30%;
   max-width: 300px;
+  display: inline-block;
+  float: left;
   .inside {
     padding: 20px;
   }
